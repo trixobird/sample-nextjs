@@ -7,7 +7,8 @@ export default withSentryConfig(nextConfig, {
 // https://github.com/getsentry/sentry-webpack-plugin#options
 
 org: "adsviewer",
-project: "web",
+project: "myapp-nextjs",
+sentryUrl: "http://52.59.239.58:9000/",
 
 // Only print logs for uploading source maps in CI
 silent: !process.env.CI,
